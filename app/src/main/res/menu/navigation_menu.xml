@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Bmi Calculator"
+        android:id="@+id/nav_bmi" />
+
+    <item android:title="Reaction Game"
+        android:id="@+id/nav_reaction"/>
+</menu>
