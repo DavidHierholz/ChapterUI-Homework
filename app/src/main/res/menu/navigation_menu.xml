@@ -6,4 +6,8 @@
 
     <item android:title="Reaction Game"
         android:id="@+id/nav_reaction"/>
+
+    <item android:title="Step Counter"
+        android:id="@+id/step_counter"/>
+
 </menu>

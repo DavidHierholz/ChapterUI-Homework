@@ -5,12 +5,9 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.TextView;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
                         setTitle("Reaction Game");
                         ReactionGameFragment reactionGameFragment = new ReactionGameFragment();
                         fragmentManager.beginTransaction().replace(R.id.fragment, reactionGameFragment).commit();
+                        break;
+                    case R.id.step_counter:
+                        setTitle("Step Counter");
+                        StepCounterFragment stepCounterFragment = new StepCounterFragment();
+                        fragmentManager.beginTransaction().replace(R.id.fragment, stepCounterFragment).commit();
                         break;
                     default:
                 }
