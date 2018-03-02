@@ -1,6 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/textViewGame"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap anywhere to start new game" />
+
+    <LinearLayout
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame1">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame2">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame3">
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame7">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame8">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame9">
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame10">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame11">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame12">
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame13">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame14">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame15">
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame4">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame5">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/frame6">
+        </FrameLayout>
+    
+    </LinearLayout>
+    
+</LinearLayout>
